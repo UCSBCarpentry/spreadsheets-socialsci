@@ -17,6 +17,8 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+![](fig/onehalf_excel_meme.jpeg){alt="Meme with the text: Optimist: The glass is one-half full, Pessimist: The glass is one-half empyt, Excel: The glass is January 2nd."}
+
 ## Date formats in spreadsheets
 
 Dates in spreadsheets are often stored in a single column.
@@ -155,7 +157,7 @@ The table below outlines a few useful date-related functions and how they differ
 | Return the month number represented in the referenced date serial number     | `MONTH()`      | `MONTH()`            |
 | Return the day of the month represented in the referenced date serial number | `DAY()`      | `DAY()`            |
 | Calculate and display a date based on supplied year, month, and day values   | `DATE(Year, Month, Day)`      | `DATE(Year; Month; Day)`            |
-| Return the serial number for date information supplied as a string           | `DATEVALUE()`      | `DATEVALUE("Text")`            |
+| Return the serial number for date information supplied as a string           | `DATEVALUE("Text")`      | `DATEVALUE("Text")`            |
 | Change display of a number by applying specified formatting                  | `TEXT(Value, "Formatting code to apply")`      | `TEXT(Value; "Formatting to apply")`            |
 | Return the current system date                                               | `NOW()`      | `NOW()`            |
 
