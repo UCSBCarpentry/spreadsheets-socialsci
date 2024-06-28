@@ -17,6 +17,8 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+![](fig/onehalf_excel_meme.jpeg){alt="Meme with the text: Optimist: The glass is one-half full, Pessimist: The glass is one-half empyt, Excel: The glass is January 2nd."}
+
 ## Date formats in spreadsheets
 
 Dates in spreadsheets are often stored in a single column.
@@ -135,6 +137,50 @@ variable.
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Useful spreadsheet functions for working with date information
+
+Let's take a look at some functions that will help us work with date information in spreadsheet applications.
+Please remember that functions that are valid for a given
+spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice.org,
+Gnumeric, etc.) are usually guaranteed to be compatible only within the same
+family of products. So, if you will later need to export the data and need to
+conserve the timestamps you should consider recording date information using one of the solutions discussed above.
+
+If a date is entered in one column, we can use functions to extract information from that column into other columns. For example, it can be useful to display the specific information about the year, month, and day. Conversely, these functions can convert supplied numerical values from numbers into dates. Date-related functions allow us to convert date values from the stored numerical value to a readable display value, make calculations between date values, and also to extract the date values so that they do not change as data is transformed or exchanged between new users and systems.
+
+The table below outlines a few useful date-related functions and how they differ between some of the widely used spreadsheet applications.
+
+| Action of function                                                           | Excel | LibreOffice |
+| ---------------------------------------------------------------------------- | ----- | ----------- |
+| Return the year number represented in the referenced cell value              | `YEAR()`      | `YEAR()`            |
+| Return the month number represented in the referenced date serial number     | `MONTH()`      | `MONTH()`            |
+| Return the day of the month represented in the referenced date serial number | `DAY()`      | `DAY()`            |
+| Calculate and display a date based on supplied year, month, and day values   | `DATE(Year, Month, Day)`      | `DATE(Year; Month; Day)`            |
+| Return the serial number for date information supplied as a string           | `DATEVALUE("Text")`      | `DATEVALUE("Text")`            |
+| Change display of a number by applying specified formatting                  | `TEXT(Value, "Formatting code to apply")`      | `TEXT(Value; "Formatting to apply")`            |
+| Return the current system date                                               | `NOW()`      | `NOW()`            |
+
+
+## Storing dates and times as a single string {#str}
+
+When dealing with dates and times, the best alternative is to convert the date string
+into a single string using the `YYYYMMDDhhmmss` format, following the international date standard [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
+For example the date `March 24, 2015 17:25:35` would
+become `20150324172535`, where:
+
+```
+YYYY:   the full year, i.e. 2015
+MM:     the month, i.e. 03
+DD:     the day of month, i.e. 24
+hh:     hour of day, i.e. 17
+mm:     minutes, i.e. 25
+ss:     seconds, i.e. 35
+```
+
+Such strings will be correctly sorted in ascending or descending order, and by
+knowing the format they can then be correctly processed by the receiving
+software.
 
 ## Historical data
 

@@ -212,6 +212,34 @@ spreadsheet (i.e. before you enter any data).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+### Sorting
+
+**Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column.
+If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+### Exercise
+
+Sort by `respondent_wall_type` in the order *A to Z*
+
+- When you do this sort, do you notice anything strange?
+
+:::::::::::::::  solution
+
+### Solution
+
+Click the <kbd>Sort</kbd> button on the <kbd>Data</kbd> tab in Excel. A pop-up will appear. Choose the column you want to sort as well as the sort order.
+
+Note how the odd values sort to the top. We can see the first three rows in the `respondent_wall_type` column are invalid data as they have a leading space. If you scroll down, there is only one household with the value *cement*, which can be a data entry error.
+
+
+
+:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
