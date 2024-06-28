@@ -184,6 +184,11 @@ General best practice is to avoid adding characters such as newlines, tabs, and 
 it were a simple web form that can only contain text and spaces.
 
 
+After completing the required changes following the discusses recommendations, you should have a data dictionary and a revised dataset similarly to the one below:
+
+Curty, R. G. (2024). Answer Key for the SAFI messy data workshop exercise [Data set]. Zenodo. https://doi.org/10.5281/zenodo.12586902
+
+
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
