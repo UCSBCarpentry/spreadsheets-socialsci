@@ -56,6 +56,19 @@ automate the conversion from one to another.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Exercise: Spotting errors
+
+Let's look at a example together:
+How many issues can you identify in this spreadsheet?
+
+Curty, R. G. (2024). Messy Spreadsheet Example for Instruction [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.12586563](https://doi.org/10.5281/zenodo.12586563)
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 ### Keeping track of your analyses
 
 When you're working with spreadsheets, during data clean up or analyses, it's
