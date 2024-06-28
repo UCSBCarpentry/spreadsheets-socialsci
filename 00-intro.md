@@ -48,6 +48,12 @@ In this lesson, we're going to talk about:
 - Basic quality control and data manipulation in spreadsheets
 - Exporting data from spreadsheets
 
+### Why spreadsheets?
+
+Spreadsheets are widely used and remain important to many because they offer a versatile, cost-effective and user-friendly platform for recording and presenting data for a vast range of tasks, from simple lists to more complex research projects. Their user-friendly interface and familiar grid layout make them accessible to those who may not have extensive programming skills or prefer a straightforward method to organize and manipulate data. Also, spreadsheets integrate well with many tools and software, including more sophisticated ones. Users can easily import data from external sources, export results for further analysis or visualization, and integrate spreadsheet functionalities with more specialized statistical or computational tools as needed. 
+
+![Oprah spreadsheet meme](fig/oprah-spreadsheet-meme.jpeg){alt="Meme with a photo of Oprah Winfrey saying: 'You get an spreadsheet, and you get a spreadsheet. Everyone gets a spreadsheet!'"}
+
 ### Spreadsheet programs
 
 Many spreadsheet programs are available. We will use Microsoft Excel in our examples.
