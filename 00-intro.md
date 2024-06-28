@@ -91,11 +91,12 @@ Nevertheless it is important to be aware of the limitations these data may prese
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
-## What this lesson will not teach you
+## What this lesson will NOT teach you
 
 - How to do *statistics* in a spreadsheet
 - How to do *plotting* in a spreadsheet
 - How to *write code* in spreadsheet programs
+- How to *apply macros* to spreadsheets
 
 If you're looking to do this, a couple of good references are
 [Excel Cookbook](https://search.worldcat.org/title/1419271899), published by O'Reilly, and [Microsoft Excel 365 bible](https://search.worldcat.org/en/title/1263023438).
@@ -107,9 +108,8 @@ If you're looking to do this, a couple of good references are
 
 ## Exercise
 
-- How many people have used spreadsheets in their research?
-- How many people have accidentally done something that made them
-  frustrated or sad?
+- How many people have used spreadsheets in their research or daily tasks?
+- How many people have accidentally done something wrong while using spreadsheets, resulting on frustration or extra work?
   
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -118,7 +118,7 @@ If you're looking to do this, a couple of good references are
 
 However, there are circumstances where you might want to use a spreadsheet
 program to produce "quick and dirty" calculations or figures, and some of
-these features can be used in data cleaning, prior to importation into a
+these features can be used in data cleaning, prior to importing the data into a
 statistical analysis program. We will show you how to use some features of
 spreadsheet programs to check your data quality along the way and produce
 preliminary summary statistics.
