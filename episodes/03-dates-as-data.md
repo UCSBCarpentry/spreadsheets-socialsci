@@ -35,6 +35,8 @@ One of the other reasons dates can be tricky is that most spreadsheet programs h
 
 ![](fig/excel_dates_1.jpg){alt='Many formats, many ambiguities'}
 
+Here is the official documentation for date formatting in [Microsoft Excel](https://support.microsoft.com/en-us/office/format-numbers-as-dates-or-times-418bd3fe-0577-47c8-8caa-b4d30c528309) and [LibreOffice Calc](https://wiki.documentfoundation.org/Videos/Format_date_in_Calc).
+
 ## Dates stored as integers
 
 The first thing you need to know is that Excel stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822.
