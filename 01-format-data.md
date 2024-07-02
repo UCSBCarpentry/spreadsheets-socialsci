@@ -56,7 +56,7 @@ automate the conversion from one to another.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::  callout
+:::::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Exercise: Spotting errors
 
