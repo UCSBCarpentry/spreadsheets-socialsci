@@ -316,7 +316,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Formatting Data Tables in Spreadsheets</h1>
-        <p>Last updated on 2024-07-02 |
+        <p>Last updated on 2025-01-22 |
 
         <a href="https://github.com/datacarpentry/spreadsheets-socialsci/edit/main/episodes/01-format-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -335,8 +335,7 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>What are some common challenges with formatting data in spreadsheets
-and how can we avoid them?</li>
+<ul><li>How do we format data in spreadsheets for effective data use?</li>
 </ul></div>
 </div>
 </div>
@@ -419,8 +418,9 @@ together.</li>
 </ul><p>Put these principles in to practice today during the exercises.</p>
 </div>
 <div class="section level3">
-<h3 id="structuring-data-in-spreadsheets">Structuring data in spreadsheets<a class="anchor" aria-label="anchor" href="#structuring-data-in-spreadsheets"></a></h3>
-<p>The cardinal rules of using spreadsheet programs for data:</p>
+<h3 id="tidy-data-in-spreadsheets">Tidy data in spreadsheets<a class="anchor" aria-label="anchor" href="#tidy-data-in-spreadsheets"></a></h3>
+<p>The tidy data principles when structuring data in spreadsheets
+are:</p>
 <ol style="list-style-type: decimal"><li>Put all your variables in columns - the thing you’re measuring, like
 ‘weight’ or ‘temperature’.</li>
 <li>Put each observation in its own row.</li>
@@ -431,13 +431,16 @@ want to be able to use or sort that data.</li>
 <li>Export the cleaned data to a text-based format like CSV
 (comma-separated values) format. This ensures that anyone can use the
 data, and is required by most data repositories.</li>
-</ol><p>For instance, we’re going to be working with data from a study of
+</ol><p>You can understand more easily these principles with the
+illustrations in the <a href="https://allisonhorst.com/other-r-fun" class="external-link">Tidy
+Data Series by Lowndes &amp; Horst</a>.</p>
+<p>For instance, we’re going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). Researchers conducted
 interviews with farmers in these countries to collect data on household
-statistics (e.g. number of household members, number of meals eaten per
-day, availability of water), farming practices (e.g. water usage), and
-assets (e.g. number of farm plots, number of livestock). They also
+statistics (e.g., number of household members, number of meals eaten per
+day, availability of water), farming practices (e.g., water usage), and
+assets (e.g., number of farm plots, number of livestock). They also
 recorded the dates and locations of each interview.</p>
 <p>If they were to keep track of the data like this:</p>
 <figure><img src="fig/multiple-info.png" alt="multiple-info example" class="figure mx-auto d-block"></figure><p>the problem is that number of livestock and type of livestock are in
@@ -466,9 +469,9 @@ computationally and reproducibly later in this workshop.</p>
 <p>The data used in these lessons are taken from interviews of farmers
 in two countries in eastern sub-Saharan Africa (Mozambique and
 Tanzania). These interviews were conducted between November 2016 and
-June 2017 and probed household features (e.g. construction materials
-used, number of household members), agricultural practices (e.g. water
-usage), and assets (e.g. number and types of livestock).</p>
+June 2017 and probed household features (e.g., construction materials
+used, number of household members), agricultural practices (e.g., water
+usage), and assets (e.g., number and types of livestock).</p>
 </blockquote>
 <p>This is a real dataset, however, it has been simplified for this
 workshop. If you’re interested in exploring the full dataset further,
@@ -528,7 +531,7 @@ wrong with this data and how you would fix it.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul><li>Take about 10 minutes to work on this exercise.</li>
 <li>All the mistakes listed in <a href="02-common-mistakes.html">the
@@ -547,11 +550,13 @@ the point they brought up.</li>
 <div id="handy-references" class="callout-inner">
 <h3 class="callout-title">Handy References</h3>
 <div class="callout-content">
-<p>Two excellent references on spreadsheet organization are:</p>
-<ul><li><p>Karl W. Broman &amp; Kara H. Woo, <em>Data Organization in
-Spreadsheets</em>, Vol. 72, Issue 1, 2018, The American Statistician. <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989" class="external-link">https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989</a></p></li>
-<li><p>Hadley Wickham, <em>Tidy Data</em>, Vol. 59, Issue 10, Sep 2014,
+<p>Three excellent references on spreadsheet organization are:</p>
+<ul><li><p>Hadley Wickham, <em>Tidy Data</em>, Vol. 59, Issue 10, Sep 2014,
 Journal of Statistical Software. <a href="https://www.jstatsoft.org/v59/i10" class="external-link">http://www.jstatsoft.org/v59/i10</a></p></li>
+<li><p>Julia Lowndes &amp; Allison Horst, <em>Tidy Data Series by
+Lowndes &amp; Horst</em>. <a href="https://allisonhorst.com/other-r-fun" class="external-link">https://allisonhorst.com/other-r-fun</a></p></li>
+<li><p>Karl W. Broman &amp; Kara H. Woo, <em>Data Organization in
+Spreadsheets</em>, Vol. 72, Issue 1, 2018, The American Statistician. <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989" class="external-link">https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989</a></p></li>
 </ul></div>
 </div>
 </div>
@@ -587,15 +592,15 @@ formatting of your data file.</p>
 <p>Some of this information may be familiar to learners who conduct
 analyses on survey data or other data sets that come with codebooks.
 Codebooks will often describe the way a variable has been constructed,
-what prompt was associated with it in an survey or interview, and what
+what prompt was associated with it in a survey or interview, and what
 the meaning of various values are. For example, the <a href="https://gss.norc.org" class="external-link">General Social Survey</a> maintains their
 entire codebook online. Looking at an entry for a particular variable,
 such as <a href="https://gssdataexplorer.norc.org/variables/81/vshow" class="external-link">the variable
 <code>SEX</code></a>, provides valuable information about what survey
 waves the variable covers, and the meaning of particular values.</p>
 <p>Additionally, file or database level metadata describes how files
-that make up the dataset relate to each other; what format are they are
-in; and whether they supersede or are superseded by previous files. A
+that make up the dataset relate to each other; what format they are in;
+and whether they supersede or are superseded by previous files. A
 folder-level readme.txt file is the classic way of accounting for all
 the files and folders in a project.</p>
 <p>Metadata are most useful when they follow a standard. For example,
@@ -604,8 +609,9 @@ the <a href="https://www.ddialliance.org" class="external-link">Data Documentati
 points in the research cycle. Research librarians may have specific
 expertise in this area, and can be helpful resources for thinking about
 ways to purposefully document metatdata as part of your research.</p>
-<p>(Text on metadata adapted from the online course Research Data <a href="https://datalib.edina.ac.uk/mantra" class="external-link">MANTRA</a> by EDINA and Data
-Library, University of Edinburgh. MANTRA is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">Creative Commons
+<p>(Text on metadata adapted from the online course <a href="https://mantra.ed.ac.uk/" class="external-link">MANTRA - Research Data Management
+Training</a> by Research Data Service and the Institute for Academic
+Development, University of Edinburgh. MANTRA is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">Creative Commons
 Attribution 4.0 International License</a>.)</p>
 <div id="exercise-1" class="callout challenge">
 <div class="callout-square">
@@ -631,21 +637,21 @@ in order to analyze and interpret this data?”</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Some types of metadata that should be recorded and made available
 with the data are:</p>
 <ul><li>the exact wording of questions used in the interviews (if interviews
 were structured) or general prompts used (if interviews were
 semi-structured)</li>
-<li>a description of the type of data allowed in each column (e.g. the
+<li>a description of the type of data allowed in each column (e.g., the
 allowed range for numerical data with a restricted range, a list of
 allowed options for categorical variables, whether data in a numerical
 column should be continuous or discrete)</li>
-<li>definitions of any categorical variables (e.g. definitions of
+<li>definitions of any categorical variables (e.g., definitions of
 “burntbricks” and “sunbricks”)</li>
-<li>definitions of what was counted as a “room”, a “plot”, etc.
-(e.g. was there a minimum size)</li>
+<li>definitions of what was counted as a “room”, a “plot”, etc. (e.g.,
+was there a minimum size)</li>
 <li>learners may come up with additional questions to add to this
 list</li>
 </ul></div>
@@ -704,7 +710,7 @@ changes.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.10" class="external-link">sandpaper (0.16.10)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.7" class="external-link">pegboard (0.7.7)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.5" class="external-link">varnish (1.0.5)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.11" class="external-link">sandpaper (0.16.11)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.7" class="external-link">pegboard (0.7.7)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.5" class="external-link">varnish (1.0.5)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -726,8 +732,8 @@ changes.</li>
   "url": "https://datacarpentry.github.io/spreadsheets-socialsci/01-format-data.html",
   "identifier": "https://datacarpentry.github.io/spreadsheets-socialsci/01-format-data.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2024-07-02",
-  "datePublished": "2025-01-07"
+  "dateModified": "2025-01-22",
+  "datePublished": "2025-01-22"
 }
 
   </script><script>
