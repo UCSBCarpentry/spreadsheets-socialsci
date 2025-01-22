@@ -84,13 +84,8 @@ Nevertheless it is important to be aware of the limitations these data may prese
 - How to *write code* in spreadsheet programs
 - How to *apply macros* to spreadsheets
 
-<<<<<<< HEAD
-If you're looking to do this, a couple of good references are
-[Excel Cookbook](https://search.worldcat.org/title/1419271899), published by O'Reilly, and [Microsoft Excel 365 bible](https://search.worldcat.org/en/title/1263023438).
-=======
 If you're looking to do this, a couple of good references are the
 [Excel Cookbook](https://search.worldcat.org/title/1419271899), published by O'Reilly, and the [Microsoft Excel 365 bible](https://search.worldcat.org/en/title/1263023438).
->>>>>>> 98680f82ca5b72d4848787beeddbf513f2822be2
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
