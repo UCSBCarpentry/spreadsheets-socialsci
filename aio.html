@@ -1064,20 +1064,20 @@ and Evolution.</p>
 <col width="9%">
 <col width="6%">
 </colgroup>
-<thead><tr class="header">
+<thead><tr>
 <th>Null Values</th>
 <th>Problems</th>
 <th>Compatibility</th>
 <th>Recommendation</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>0</td>
 <td>Indistinguishable from a true zero</td>
 <td></td>
 <td>NEVER use</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Blank</td>
 <td>Hard to distinguish values that are missing from those overlooked on
 entry. Hard to distinguish blanks from spaces, which behave
@@ -1085,14 +1085,14 @@ differently.</td>
 <td>R, Python, SQL, Excel</td>
 <td>Best option</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>-999, 999</td>
 <td>Not recognized as null by many programs without user input. Can be
 inadvertently entered into calculations.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NA, na</td>
 <td>Can also be an abbreviation (e.g., North America), can cause
 problems with data type (turn a numerical column into a text column). NA
@@ -1100,38 +1100,38 @@ is more commonly recognized than na.</td>
 <td>R</td>
 <td>Good option</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>N/A</td>
 <td>An alternate form of NA, but often not compatible with
 software.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NULL</td>
 <td>Can cause problems with data type.</td>
 <td>SQL</td>
 <td>Good option</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>None</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td>Python</td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>No data</td>
 <td>Uncommon. Can cause problems with data type, contains a space.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Missing</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td></td>
 <td>Avoid</td>
 </tr>
-<tr class="even">
+<tr>
 <td>-, +, .</td>
 <td>Uncommon. Can cause problems with data type.</td>
 <td></td>
@@ -1199,33 +1199,33 @@ Avoid starting variable names with numbers, as this may cause problems
 with some analysis software.</p>
 <p><strong>Examples</strong></p>
 <table class="table">
-<thead><tr class="header">
+<thead><tr>
 <th>Good Name</th>
 <th>Good Alternative</th>
 <th>Avoid</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>wall_type</td>
 <td>WallType</td>
 <td>wall type</td>
 </tr>
-<tr class="even">
+<tr>
 <td>longitude</td>
 <td>GpsLongitude</td>
 <td>gps:Longitude</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>gender</td>
 <td>gender</td>
 <td>M/F</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Informant_01</td>
 <td>first_informant</td>
 <td>1st Inf</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>age_18</td>
 <td>years18</td>
 <td>18years</td>
@@ -1675,7 +1675,7 @@ Z</em></p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Click the <kbd>Sort</kbd> button on the <kbd>Data</kbd> tab in Excel.
 A pop-up will appear. Choose the column you want to sort as well as the
@@ -1916,47 +1916,47 @@ applications.</p>
 <col width="5%">
 <col width="11%">
 </colgroup>
-<thead><tr class="header">
+<thead><tr>
 <th>Action of function</th>
 <th>Excel</th>
 <th>LibreOffice</th>
 </tr></thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Return the year number represented in the referenced cell value</td>
 <td><code>YEAR()</code></td>
 <td><code>YEAR()</code></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Return the month number represented in the referenced date serial
 number</td>
 <td><code>MONTH()</code></td>
 <td><code>MONTH()</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Return the day of the month represented in the referenced date
 serial number</td>
 <td><code>DAY()</code></td>
 <td><code>DAY()</code></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Calculate and display a date based on supplied year, month, and day
 values</td>
 <td><code>DATE(Year, Month, Day)</code></td>
 <td><code>DATE(Year; Month; Day)</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Return the serial number for date information supplied as a
 string</td>
 <td><code>DATEVALUE("Text")</code></td>
 <td><code>DATEVALUE("Text")</code></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Change display of a number by applying specified formatting</td>
 <td><code>TEXT(Value, "Formatting code to apply")</code></td>
 <td><code>TEXT(Value; "Formatting to apply")</code></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Return the current system date</td>
 <td><code>NOW()</code></td>
 <td><code>NOW()</code></td>
@@ -2203,8 +2203,8 @@ in a format that can be used consistently by most programs.</li>
   "url": "https://datacarpentry.github.io/spreadsheets-socialsci/aio.html",
   "identifier": "https://datacarpentry.github.io/spreadsheets-socialsci/aio.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2026-04-28",
-  "datePublished": "2026-04-28"
+  "dateModified": "2026-05-05",
+  "datePublished": "2026-05-05"
 }
 
   </script><script>
